@@ -1,28 +1,40 @@
-name: EducationUK
-favicon: null
-layout_spectrum: 0.8076343724969774
-typography_spectrum: 0.6858512542676181
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.8817204
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
+  saturation: 0.2325989578384906
   brandStrength: 0.8595470834989101
   lightness: 0.7462082197889686
-  saturation: 0.2325989578384906
+  brandColors:
+    - '#020227'
+    - '#F2E1A3'
+    - '#9A775C'
+    - '#5C3942'
+    - '#67AB77'
   rhythmicContrast: 0.7979835846927017
-purpose: []
+typography_spectrum: 0.6858512542676181
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: EducationUK
